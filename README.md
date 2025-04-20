@@ -20,3 +20,13 @@ This is a simulation-based system that checks if a planned drone flight will cau
 
 ```bash
 pip install matplotlib
+```
+2. Run the main program:
+   
+```bash
+python main.py
+```
+3. To test different primary missions, change the mission index in main.py
+   
+```bash
+primary, others = load_path(mission_index=0)  # 0 to 4
