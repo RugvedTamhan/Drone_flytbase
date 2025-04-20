@@ -1,0 +1,136 @@
+{
+  "primary_missions": [
+    {
+      "id": "drone_main_1_safe",
+      "start_time": 10,
+      "end_time": 50,
+      "waypoints": [
+        { "x": 0, "y": 0, "z": 15, "t": 10 },
+        { "x": 10, "y": 0, "z": 15, "t": 20 },
+        { "x": 10, "y": 10, "z": 15, "t": 30 },
+        { "x": 0, "y": 10, "z": 15, "t": 40 },
+        { "x": 0, "y": 0, "z": 15, "t": 50 }
+      ]
+    },
+    {
+      "id": "drone_main_2_conflict_drone_1_4D",
+      "start_time": 10,
+      "end_time": 50,
+      "waypoints": [
+        { "x": 15, "y": 10, "z": 5, "t": 10 },
+        { "x": 15, "y": 20, "z": 5, "t": 30 },
+        { "x": 15, "y": 30, "z": 5, "t": 50 }
+      ]
+    },
+    {
+      "id": "drone_main_3_conflict_drone_3_z_only",
+      "start_time": 20,
+      "end_time": 50,
+      "waypoints": [
+        { "x": 50, "y": 50, "z": 8, "t": 20 },
+        { "x": 40, "y": 40, "z": 9, "t": 50 }
+      ]
+    },
+    {
+      "id": "drone_main_4_conflict_drone_4_time_only",
+      "start_time": 0,
+      "end_time": 50,
+      "waypoints": [
+        { "x": 10, "y": 5, "z": 10, "t": 0 },
+        { "x": 10, "y": 25, "z": 10, "t": 50 }
+      ]
+    },
+    {
+      "id": "drone_main_5_conflict_drone_5_spatial_only",
+      "start_time": 70,
+      "end_time": 100,
+      "waypoints": [
+        { "x": 5, "y": 5, "z": 20, "t": 70 },
+        { "x": 25, "y": 25, "z": 20, "t": 100 }
+      ]
+    }
+  ],
+  "other_drones": [
+    {
+      "id": "drone_1",
+      "start_time": 0,
+      "end_time": 60,
+      "waypoints": [
+        { "x": 15, "y": 10, "z": 5, "t": 0 },
+        { "x": 15, "y": 30, "z": 5, "t": 60 }
+      ]
+    },
+    {
+      "id": "drone_2",
+      "start_time": 10,
+      "end_time": 50,
+      "waypoints": [
+        { "x": 0, "y": 0, "z": 5, "t": 10 },
+        { "x": 0, "y": 40, "z": 5, "t": 50 }
+      ]
+    },
+    {
+      "id": "drone_3",
+      "start_time": 20,
+      "end_time": 60,
+      "waypoints": [
+        { "x": 50, "y": 50, "z": 8, "t": 20 },
+        { "x": 40, "y": 40, "z": 9, "t": 60 }
+      ]
+    },
+    {
+      "id": "drone_4",
+      "start_time": 0,
+      "end_time": 50,
+      "waypoints": [
+        { "x": 10, "y": 5, "z": 4, "t": 0 },
+        { "x": 10, "y": 25, "z": 4, "t": 50 }
+      ]
+    },
+    {
+      "id": "drone_5",
+      "start_time": 15,
+      "end_time": 45,
+      "waypoints": [
+        { "x": 5, "y": 5, "z": 3, "t": 15 },
+        { "x": 25, "y": 25, "z": 3, "t": 45 }
+      ]
+    },
+    {
+      "id": "drone_6",
+      "start_time": 0,
+      "end_time": 50,
+      "waypoints": [
+        { "x": 40, "y": 0, "z": 6, "t": 0 },
+        { "x": 40, "y": 40, "z": 6, "t": 50 }
+      ]
+    },
+    {
+      "id": "drone_7",
+      "start_time": 10,
+      "end_time": 60,
+      "waypoints": [
+        { "x": 30, "y": 10, "z": 10, "t": 10 },
+        { "x": 10, "y": 30, "z": 10, "t": 60 }
+      ]
+    },
+    {
+      "id": "drone_8",
+      "start_time": 5,
+      "end_time": 55,
+      "waypoints": [
+        { "x": 50, "y": 10, "z": 5, "t": 5 },
+        { "x": 50, "y": 30, "z": 5, "t": 55 }
+      ]
+    },
+    {
+      "id": "drone_9",
+      "start_time": 0,
+      "end_time": 60,
+      "waypoints": [
+        { "x": 5, "y": 50, "z": 12, "t": 0 },
+        { "x": 25, "y": 30, "z": 12, "t": 60 }
+      ]
+    }
+  ]
+}
