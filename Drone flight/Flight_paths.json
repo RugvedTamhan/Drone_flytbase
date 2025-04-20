@@ -1,14 +1,55 @@
 {
-  "primary_mission": {
-    "id": "drone_main",
-    "start_time": 10,
-    "end_time": 50,
-    "waypoints": [
-      { "x": 15, "y": 10, "z": 5, "t": 10 },
-      { "x": 15, "y": 20, "z": 5, "t": 30 },
-      { "x": 15, "y": 30, "z": 5, "t": 50 }
-    ]
-  },
+  "primary_missions": [
+    {
+      "id": "drone_main_1_safe",
+      "start_time": 10,
+      "end_time": 50,
+      "waypoints": [
+        { "x": 0, "y": 0, "z": 15, "t": 10 },
+        { "x": 10, "y": 0, "z": 15, "t": 20 },
+        { "x": 10, "y": 10, "z": 15, "t": 30 },
+        { "x": 0, "y": 10, "z": 15, "t": 40 },
+        { "x": 0, "y": 0, "z": 15, "t": 50 }
+      ]
+    },
+    {
+      "id": "drone_main_2_conflict_drone_1_4D",
+      "start_time": 10,
+      "end_time": 50,
+      "waypoints": [
+        { "x": 15, "y": 10, "z": 5, "t": 10 },
+        { "x": 15, "y": 20, "z": 5, "t": 30 },
+        { "x": 15, "y": 30, "z": 5, "t": 50 }
+      ]
+    },
+    {
+      "id": "drone_main_3_conflict_drone_3_z_only",
+      "start_time": 20,
+      "end_time": 50,
+      "waypoints": [
+        { "x": 50, "y": 50, "z": 8, "t": 20 },
+        { "x": 40, "y": 40, "z": 9, "t": 50 }
+      ]
+    },
+    {
+      "id": "drone_main_4_conflict_drone_4_time_only",
+      "start_time": 0,
+      "end_time": 50,
+      "waypoints": [
+        { "x": 10, "y": 5, "z": 10, "t": 0 },
+        { "x": 10, "y": 25, "z": 10, "t": 50 }
+      ]
+    },
+    {
+      "id": "drone_main_5_conflict_drone_5_spatial_only",
+      "start_time": 70,
+      "end_time": 100,
+      "waypoints": [
+        { "x": 5, "y": 5, "z": 20, "t": 70 },
+        { "x": 25, "y": 25, "z": 20, "t": 100 }
+      ]
+    }
+  ],
   "other_drones": [
     {
       "id": "drone_1",
@@ -16,7 +57,7 @@
       "end_time": 60,
       "waypoints": [
         { "x": 15, "y": 10, "z": 5, "t": 0 },
-        { "x": 15, "y": 20, "z": 5, "t": 60 }
+        { "x": 15, "y": 30, "z": 5, "t": 60 }
       ]
     },
     {
@@ -25,7 +66,6 @@
       "end_time": 50,
       "waypoints": [
         { "x": 0, "y": 0, "z": 5, "t": 10 },
-        { "x": 0, "y": 20, "z": 5, "t": 30 },
         { "x": 0, "y": 40, "z": 5, "t": 50 }
       ]
     },
